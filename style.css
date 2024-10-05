@@ -1,0 +1,129 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+.nav{
+   width: 100vw;
+   height: 12vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+}
+.logo{
+   font-size: 60px;
+   color: white;
+   padding: 0 20px;
+   margin-left: 10%;
+   transition: .4s;
+}
+span{
+   color: orangered;
+}
+.logo:hover{
+   color: orangered;
+   text-shadow: 0 0 25px orangered;
+   cursor: pointer;
+}
+ul{
+   margin-right: 10%;
+}
+.nav a{
+   padding: 10px 20px;
+   color: white;
+   margin: 10px;
+   font-size: 25px;
+   text-decoration: none;
+   border: solid transparent;
+   transition: .4s ease;
+}
+.nav a:hover{
+   border-bottom: solid orangered;
+   color: orangered;
+}
+#contact{
+   color: rgb(12, 1, 1);
+   padding: 10px 25px;
+   font-size: 30px;
+   background-color: white;
+   border: solid transparent;
+   border-radius: 10px;
+   transition: .4s ease;
+}
+#contact:hover{
+   box-shadow: 0 0 25px orangered;
+   background-color: orangered;
+   color: white;
+}
+.home{
+   width: 100vw;
+   min-height: 100vh;
+   background-color: rgb(7, 7, 7);
+   display: flex;
+   align-items: center;
+   gap: 13rem;
+}
+.home_content{
+   max-width: 800px;
+   margin-left: 10%;
+   color: white;
+}
+.home_content h1{
+   font-size: 70px;
+}
+.home_content p{
+   font-size: 25px;
+   margin-top: 3%;
+}
+
+.btn-box{
+   margin-top: 8%;
+   width: 350px;
+   display: flex;
+   gap: 3em;
+}
+.btn1{
+   padding: 15px 25px;
+   width: 150px;
+   cursor: pointer;
+   border-radius: 10px;
+   border: solid transparent;
+   font-size: 20px;
+   transition: .4s ease;
+   background: white;
+   color: black;
+}
+.btn2{
+   padding: 15px 25px;
+   width: 150px;
+   cursor: pointer;
+   border-radius: 10px;
+   border: solid black;
+   font-size: 20px;
+   transition: .4s ease;
+   background-color: orangered;
+   color: white;
+}
+
+.btn2:hover{
+   color: rgb(3, 0, 0);
+   background: white;
+   box-shadow: 0 0 25px white;
+   border: none;
+}
+
+.btn1:hover{
+   color: rgb(250, 250, 250);
+   background: orangered;
+   box-shadow: 0 0 25px orangered;
+}
+
+.image img{
+   width: 100%;
+   height: 50vh;
+   border-radius: 50%;
+   box-shadow: 0 0 25px orangered;
+   cursor: pointer;
+}
